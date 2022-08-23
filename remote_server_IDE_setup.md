@@ -19,8 +19,8 @@ Add the following lines to your .bashrc
 # prompt color green
 export PS1="\[\033[38;5;11m\]\u@\h\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;14m\]\w\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;4m\]\\$ \[$(tput sgr0)\]"
 
-# vim mode in your command line
-set -o vi
+# vim mode in your command line (optional)
+# set -o vi
 
 # export binary folder to path
 export PATH=~/bin:$PATH
