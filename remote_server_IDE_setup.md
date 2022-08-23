@@ -27,7 +27,6 @@ set -o vi
 # export binary folder to path
 export PATH=~/bin:$PATH
 
-alias vim="nvim"
 alias ll="ls -la --color=auto"
 alias la="ls -a --color=auto"
 alias ls="ls --color=auto"
@@ -44,7 +43,7 @@ To get around this:
 **Fuzzy finding, ripgrep and lazygit** 
 - We can curl the nvim, fzf, ripgrep and lazygit zipped folders into ~/bin/storage and symlink their binaries to ~/bin
 ```bash
-mkdir ~/bin/
+mkdir ~/bin
 mkdir ~/bin/storage
 cd ~/bin/storage
 curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz
