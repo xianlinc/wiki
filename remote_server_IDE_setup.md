@@ -88,6 +88,7 @@ nvim +PackerSync
 
 #### Installing NVM and node
 **Skip this step if you are able to use npm to install packages**
+
 The LSP installer requires npm and node.
 
 We can download [NVM](https://github.com/nvm-sh/nvm), a node version manager that gives us a version of node that is only installed for our user and invoked per-shell.
