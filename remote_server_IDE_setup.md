@@ -1,9 +1,7 @@
-# Quick IDE setup in remote server
+# Quick AstroNvim setup in remote server
 
-## Components 
-
-### Main Component
-**AstroNvim**
+## Main Component
+### [AstroNvim](https://astronvim.github.io/)
 
 Features:
 - Vim
@@ -117,3 +115,6 @@ Run `:LspInstall <my_lsp>` in neovim.
 
 ### Congratulations
 You now have a friendly development environment on a remote server!
+
+## Troubleshooting
+1. Try sourcing your .bashrc: `source ~/.bashrc`
