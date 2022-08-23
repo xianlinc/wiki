@@ -30,7 +30,7 @@ alias la="ls -a --color=auto"
 alias ls="ls --color=auto"
 ```
 
-## Optional extensions
+## Full Setup
 Since we may not have sudo access, we can't use package managers like **apt** or **npm**.
 To get around this:
 1. We create a directory called bin, which we will put all our executable binaries in.
