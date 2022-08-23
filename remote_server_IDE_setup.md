@@ -67,6 +67,8 @@ ln -s -n ~/bin/storage/lazygit ~/bin/lazygit
 ### Setup AstroNvim
 In-depth guide: https://astronvim.github.io/
 
+> If you dont have a current nvim config, skip to **clone the repository** 
+
 **Make a backup of current Nvim folder**
 
 ```
@@ -113,3 +115,5 @@ Run `:LspInstall <my_lsp>` in neovim.
 - Run `:Mason` in neovim
 - You can press the  `?` key to see the help menu in the Mason UI
 
+### Congratulations
+You now have a friendly development environment on a remote server!
